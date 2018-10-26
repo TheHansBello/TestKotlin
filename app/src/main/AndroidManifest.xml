@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.matthew.testkotlin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.register" />
+        <activity android:name=".activities.signIn" />
+        <activity android:name=".activities.tAndC" />
+        <activity android:name=".activities.mainActivity" />
+        <activity android:name=".activities.notes" />
+        <activity android:name=".activities.faculty" />
+        <activity android:name=".activities.processing" />
+        <activity android:name=".activities.department" />
+        <activity android:name=".activities.sltCourses" />
+        <activity android:name=".activities.csCourses" />
+        <activity android:name=".activities.mcbCourses" />
+        <activity android:name=".activities.zooCourses" />
+        <activity android:name=".activities.mthCourses" />
+        <activity android:name=".activities.chmCourses" />
+        <activity android:name=".activities.phyCourses" />
+        <activity android:name=".activities.aboutAndCredit" />
+        <activity android:name=".activities.profile" />
+        <activity android:name=".activities.becomeTutor" />
+        <activity android:name=".activities.contactTutor" />
+        <activity android:name=".activities.peerTutoring" />
+        <activity
+            android:name=".activities.appsettings"
+            android:label="@string/title_activity_appsettings"></activity>
+    </application>
+
+</manifest>
